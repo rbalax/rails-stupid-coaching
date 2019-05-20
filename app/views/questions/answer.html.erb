@@ -1,0 +1,11 @@
+<div>
+    <h1>STUPID COACHING</h1>
+    <p class=question> Ask your coach anything</p>
+    <div class=answer>
+    <p><%= @ask %></p>
+    </div>
+    <p>Coach replies: <%= @answer %></p>
+    <div class=new>
+    <%= link_to "Ask a new question ", ask_path%>
+    </div>
+</div>
